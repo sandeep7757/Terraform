@@ -9,7 +9,7 @@ provider "aws" {
   #  region = "us-east-1"
  # }
 
-}
+#}
 resource "aws_sqs_queue" "sqs" {
     name = "December2022"
   
